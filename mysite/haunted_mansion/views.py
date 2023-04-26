@@ -3,7 +3,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 
 # Create your views here.
 def index(request):
-    return HttpResponse('test')
+    return HttpResponse("Hello, world. You're at the polls index.")
 
 def haunted_mansion(request):
 
